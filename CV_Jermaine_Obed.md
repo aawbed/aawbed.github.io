@@ -1,58 +1,83 @@
 # Jermaine Otto Oyieri
-**Information Technology & Software Specialist**
 
 * Nairobi, Kenya 🇰🇪
-* Email: [jermaineobed.oyieri@strathmore.edu](mailto:jermaineobed.oyieri@strathmore.edu)
-* Live Portfolio: [https://aawbed.github.io](https://aawbed.github.io)
+* Email: [jermain3obed@gmail.com](mailto:jermain3obed@gmail.com)
+* Portfolio: [https://aawbed.github.io](https://aawbed.github.io)
 * GitHub: [https://github.com/aawbed](https://github.com/aawbed)
+* Verified Certifications: [https://www.credly.com/users/jermaine-obed](https://www.credly.com/users/jermaine-obed)
 
 ---
 
-## Professional Summary
-Proactive, solutions-focused **Information Technology Specialist and Software Engineer** with demonstrated experience in enterprise system design, database administration, network security, and end-to-end web applications. Proven track record architecting mission-critical operational systems (including the Kenya Airways water sales and order intelligence platform), implementing 4-tier role-based access control (RBAC), and automating business reporting. Skilled in diagnosing complex hardware/software issues, managing relational databases, and bridging technical infrastructure with everyday business operations.
+## About Me
+Practical and dependable IT and software enthusiast with strong hands-on skills in computer hardware, networking, system troubleshooting, databases, and web development. Experienced in building operational tools and systems, including a sales and inventory platform for Kenya Airways water operations, real-time IoT sensor dashboards, and web applications. Certified in Cisco IT Essentials and AWS Cloud foundations, with a straightforward approach to solving technical problems and helping everyday users.
 
 ---
 
-## Technical & IT Competencies
+## Verified Certifications (Credly)
 
-* **IT & Systems Support:** Hardware & OS Support (Windows & Linux), LAN/WLAN Networking, TCP/IP, Cisco Packet Tracer, Troubleshooting, System Backups & Disaster Recovery.
-* **Security & Administration:** Role-Based Access Control (RBAC), Brute-Force Defense, Session Timeout Security, User Administration & Immutable Audit Trail Logging.
-* **Software & Scripting:** Python (Django REST, Automation Scripting), JavaScript (ES6+), TypeScript, React, Node.js, Express, HTML5/CSS3, RESTful APIs.
-* **Databases & Storage:** MySQL, PostgreSQL, Relational Schema Architecture, Data Migration, SQL Query Optimization, Integrity Constraints.
-* **DevOps & Cloud:** Git & GitHub Actions (CI/CD), Vercel, Linux CLI, ReportLab Automated PDF/CSV Generation, ESP32 Microcontrollers & IoT Sensors.
-
----
-
-## Engineering Projects & Practical Experience
-
-### Lead Systems Developer — Kenya Airways (KQ) Sales & Order Intelligence System
-*2025 – 2026* | [Repository](https://github.com/aawbed/kq-sales-order-intelligence)
-* Architected and implemented a comprehensive enterprise operations platform modeled on Kenya Airways logistics workflows for order tracking, stock allocation, and financial invoicing.
-* Engineered **4-tier Role-Based Access Control (RBAC)** across Sales Agents, Warehouse Officers, Operations Managers, and System Admins, complete with 5-attempt brute-force lockouts and 30-minute idle session security.
-* Integrated machine learning models for operational decision-making: SARIMAX time-series demand forecasting (85% confidence interval) and Isolation Forest anomaly detection for abnormal order spikes.
-* Automated financial billing and accounts receivable aging reports with 16% Kenya VAT calculations and branded ReportLab PDF/CSV exports.
-* Structured and tuned the relational MySQL database schema ensuring high transactional integrity and rapid query execution.
-
-### Chief Data Officer & Frontend Contributor — COMMITed Ltd. (Agile Systems Project)
-*2025 – 2026*
-* Supervised data flow architecture and operational tracking within a 5-member engineering team adhering to Agile/Kanban sprints.
-* Established team-wide Git version control standards, resolved complex branch protection and cherry-pick merge conflicts, and implemented sprint milestones.
-* Redesigned the system interface with modern, responsive styling and ensured zero cross-browser display discrepancies.
-
-### Systems & Web Developer — Earthpulse Environmental Monitor
-*2025 – 2026* | [Live Application](https://earth-pulse-delta.vercel.app) · [Repository](https://github.com/aawbed/earth-pulse)
-* Developed and deployed a live environmental data monitoring application hosted on Vercel with serverless API integration.
-* Eliminated runtime dependency overhead by utilizing modular vanilla JavaScript and lightweight DOM rendering for rapid page response.
-
-### Embedded Systems Developer — Shamba Sense (IoT Telemetry Dashboard)
-*2025 – 2026*
-* Configured ESP32 microcontrollers and environmental sensors to stream live telemetry (soil moisture, temperature, humidity) for real-time monitoring.
-* Established automated sensor thresholds and alert triggers to optimize irrigation cycles in East African agricultural environments.
+* **IT Essentials** — Cisco Networking Academy
+  * Hardware, operating systems (Windows/Linux), LAN/WLAN networking concepts, troubleshooting, and Cisco Packet Tracer (26+ hours hands-on labs).
+* **AWS Academy Graduate — Cloud Foundations** — Amazon Web Services (AWS)
+  * Cloud concepts, security, compute, storage, and networking essentials.
+* **AWS Academy Graduate — Microservices and CI/CD Pipeline Builder** — Amazon Web Services (AWS)
+  * Automated build pipelines, continuous integration, and cloud service deployments.
 
 ---
 
-## Education & Qualifications
+## Technical & IT Skills
 
-### Bachelor of Science in Informatics & Computer Science
-*Strathmore University, Nairobi* — Class of 2026
-* **Relevant Coursework:** Distributed Systems, Computer Networks & Security, Database Management Systems (DBMS), Software Engineering, Operating Systems, Machine Learning, Embedded Systems & IoT.
+* **IT & Systems Support:** Computer hardware repair & upgrades, Windows & Linux installation, local networking (LAN/WLAN, routers, switches, TCP/IP), Cisco Packet Tracer, printer & peripheral troubleshooting, data backups.
+* **Software & Web:** Python (Django, script automation), JavaScript, HTML5, CSS3, Node.js, Express, REST APIs.
+* **Databases:** MySQL, PostgreSQL, database setup, table relationships, SQL queries, data exports.
+* **Security & User Access:** Setting up user permissions and roles, login security (lockout after failed tries), activity logs.
+* **DevOps & Hardware:** Git & GitHub, Vercel, VS Code, basic Linux terminal, ESP32 microcontrollers & sensors.
+
+---
+
+## Key Projects & Systems Built
+
+### Kenya Airways (KQ) Sales & Order Intelligence System
+*Web & Database System | 2025 – 2026* | [Repository](https://github.com/aawbed/kq-sales-order-intelligence)
+* Built a complete web platform for managing water sales orders and warehouse inventory stock levels modeled on Kenya Airways operations.
+* Set up 4 clear user roles (Sales Agents, Warehouse Officers, Managers, Administrators) so users only see and edit data relevant to their job.
+* Protected user accounts with automatic lockouts after 5 wrong password attempts and 30-minute idle session logouts.
+* Automated 16% Kenya VAT calculations and generated one-click printable PDF invoices and CSV reports to cut down on manual paperwork.
+* Trained forecasting models (SARIMAX) to predict upcoming water order demand and set up automated flags for unusual bulk order spikes.
+* Configured the MySQL database to store orders, payments (M-Pesa, bank, cash), and inventory movements securely.
+
+### IELTS AI Prep & Tutor Platform
+*Web Application | In Progress*
+* Developing an interactive online prep platform to help students practice for the IELTS examination.
+* Building practice modules for speaking and writing tests with automated model-driven feedback to guide student self-study.
+* Designing a straightforward, responsive user interface so learners can track their progress over time.
+
+### Earthpulse Environmental Monitor
+*Live Web Application | 2026* | [Live Demo](https://earth-pulse-delta.vercel.app) · [Repository](https://github.com/aawbed/earth-pulse)
+* Created and launched an environmental monitoring web app deployed live on Vercel.
+* Wrote clean, lightweight JavaScript for fast loading speeds and smooth chart displays.
+
+### Shamba Sense — IoT Farm Monitoring Dashboard
+*Hardware & Dashboard | 2026*
+* Connected ESP32 microcontrollers with real sensors to read soil moisture, temperature, and humidity levels.
+* Sent live sensor readings to a web dashboard and set alerts so farmers know exactly when crops need water.
+
+---
+
+## Education
+
+### Strathmore University, Nairobi
+*Bachelor of Science in Informatics & Computer Science*
+* **Expected Graduation:** August 2027
+* **Key Studies:** Computer Networks, Database Systems, Operating Systems, Software Engineering, Distributed Systems, Computer Security.
+
+### Pioneer Boys School, Maragua
+*2019 – 2022*
+* Kenya Certificate of Secondary Education (KCSE)
+
+---
+
+## Hobbies & Interests
+
+* Writing poetry
+* Hiking and exploring the outdoors
+* Playing football

@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV — Jermaine Otto Oyieri (IT & Software Specialist)</title>
+  <title>CV — Jermaine Otto Oyieri</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
       --text-main: #0f172a;
-      --text-muted: #475569;
+      --text-muted: #334155;
       --text-light: #64748b;
       --primary: #0284c7;
-      --border: #e2e8f0;
+      --border: #cbd5e1;
       --bg: #ffffff;
     }
 
@@ -46,7 +46,7 @@
       font-family: inherit;
       font-weight: 600;
       font-size: 0.9rem;
-      padding: 0.5rem 1.2rem;
+      padding: 0.55rem 1.3rem;
       border-radius: 6px;
       cursor: pointer;
       display: inline-flex;
@@ -68,8 +68,8 @@
     /* Header */
     .header {
       border-bottom: 2px solid var(--text-main);
-      padding-bottom: 1.2rem;
-      margin-bottom: 1.3rem;
+      padding-bottom: 1rem;
+      margin-bottom: 1.2rem;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
@@ -77,25 +77,17 @@
       gap: 1rem;
     }
     .name-block h1 {
-      font-size: 22pt;
+      font-size: 24pt;
       font-weight: 800;
       letter-spacing: -0.02em;
       color: var(--text-main);
       line-height: 1.1;
     }
-    .name-block .title {
-      font-size: 11pt;
-      font-weight: 600;
-      color: #0284c7;
-      margin-top: 0.25rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
     .contact-details {
       text-align: right;
       font-size: 9pt;
       color: var(--text-muted);
-      line-height: 1.45;
+      line-height: 1.5;
     }
     .contact-details a {
       color: #0284c7;
@@ -106,7 +98,7 @@
 
     /* Sections */
     .section {
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.15rem;
     }
     .section-title {
       font-size: 10.5pt;
@@ -116,10 +108,7 @@
       color: var(--text-main);
       border-bottom: 1px solid var(--border);
       padding-bottom: 0.25rem;
-      margin-bottom: 0.65rem;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
+      margin-bottom: 0.6rem;
     }
 
     .summary-text {
@@ -139,7 +128,7 @@
       vertical-align: top;
     }
     .skills-table .skill-cat {
-      width: 25%;
+      width: 26%;
       font-weight: 600;
       color: var(--text-main);
     }
@@ -149,7 +138,7 @@
 
     /* Experience / Projects */
     .entry {
-      margin-bottom: 1rem;
+      margin-bottom: 0.95rem;
     }
     .entry-header {
       display: flex;
@@ -165,6 +154,7 @@
     .entry-org {
       font-weight: 500;
       color: #0284c7;
+      font-size: 9pt;
     }
     .entry-date {
       font-size: 8.5pt;
@@ -179,10 +169,31 @@
       line-height: 1.45;
     }
     .entry-bullets li {
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.22rem;
     }
     .entry-bullets strong {
       color: var(--text-main);
+    }
+
+    /* Certifications List */
+    .cert-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.35rem;
+      font-size: 9pt;
+    }
+    .cert-name {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .cert-issuer {
+      color: #0284c7;
+      font-weight: 500;
+    }
+    .cert-date {
+      font-size: 8.5pt;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text-light);
     }
 
     /* Print settings */
@@ -209,8 +220,8 @@
 
   <div class="cv-actions">
     <div>
-      <strong>Jermaine Otto Oyieri — CV Preview</strong>
-      <p style="font-size: 8.5pt; color: #64748b;">Ready for IT &amp; Software Roles · ATS Optimized</p>
+      <strong>Jermaine Otto Oyieri — Curriculum Vitae</strong>
+      <p style="font-size: 8.5pt; color: #64748b;">Ready to share · ATS friendly · Clean &amp; direct</p>
     </div>
     <button class="btn-print" onclick="window.print()">
       🖨️ Save as PDF / Print
@@ -223,129 +234,178 @@
     <header class="header">
       <div class="name-block">
         <h1>Jermaine Otto Oyieri</h1>
-        <div class="title">Information Technology &amp; Software Specialist</div>
       </div>
       <div class="contact-details">
         <div>Nairobi, Kenya 🇰🇪</div>
-        <div>Email: <a href="mailto:jermaineobed.oyieri@strathmore.edu">jermaineobed.oyieri@strathmore.edu</a></div>
+        <div>Email: <a href="mailto:jermain3obed@gmail.com">jermain3obed@gmail.com</a></div>
         <div>Portfolio: <a href="https://aawbed.github.io" target="_blank">https://aawbed.github.io</a></div>
         <div>GitHub: <a href="https://github.com/aawbed" target="_blank">github.com/aawbed</a></div>
+        <div>Verified Badges: <a href="https://www.credly.com/users/jermaine-obed" target="_blank">credly.com/users/jermaine-obed</a></div>
       </div>
     </header>
 
-    <!-- Professional Summary -->
+    <!-- Summary -->
     <section class="section">
-      <div class="section-title">Professional Summary</div>
+      <div class="section-title">About Me</div>
       <p class="summary-text">
-        Proactive, solutions-focused <strong>Information Technology Specialist and Software Engineer</strong> with demonstrated experience in enterprise system design, database administration, network security, and end-to-end web applications. Proven track record architecting mission-critical operational systems (including Kenya Airways water sales and order intelligence), implementing role-based access control (RBAC), and automating business reporting. Skilled in diagnosing complex hardware/software issues, managing relational databases, and bridging technical infrastructure with everyday business operations.
+        Practical and dependable IT and software enthusiast with strong hands-on skills in computer hardware, networking, system troubleshooting, databases, and web development. Experienced in building operational tools and systems, including a sales and inventory platform for Kenya Airways water operations, real-time IoT sensor dashboards, and web applications. Certified in Cisco IT Essentials and AWS Cloud foundations, with a straightforward approach to solving technical problems and helping everyday users.
       </p>
     </section>
 
-    <!-- Technical & IT Competencies -->
+    <!-- Certifications (Credly) -->
     <section class="section">
-      <div class="section-title">Technical &amp; IT Competencies</div>
+      <div class="section-title">Verified Certifications</div>
+      <div class="cert-item">
+        <div>
+          <span class="cert-name">IT Essentials</span> — <span class="cert-issuer">Cisco Networking Academy</span>
+          <div style="font-size: 8.5pt; color: #64748b;">Hardware, OS (Windows/Linux), LAN/WLAN networking, troubleshooting &amp; Cisco Packet Tracer (26+ hours hands-on labs).</div>
+        </div>
+        <span class="cert-date">Cisco Verified</span>
+      </div>
+      <div class="cert-item">
+        <div>
+          <span class="cert-name">AWS Academy Graduate — Cloud Foundations</span> — <span class="cert-issuer">Amazon Web Services (AWS)</span>
+          <div style="font-size: 8.5pt; color: #64748b;">Cloud concepts, security, compute, storage, and networking essentials.</div>
+        </div>
+        <span class="cert-date">AWS Verified</span>
+      </div>
+      <div class="cert-item">
+        <div>
+          <span class="cert-name">AWS Academy Graduate — Microservices and CI/CD Pipeline Builder</span> — <span class="cert-issuer">Amazon Web Services (AWS)</span>
+          <div style="font-size: 8.5pt; color: #64748b;">Automated build pipelines, continuous integration, and cloud service deployments.</div>
+        </div>
+        <span class="cert-date">AWS Verified</span>
+      </div>
+    </section>
+
+    <!-- Technical & IT Skills -->
+    <section class="section">
+      <div class="section-title">Technical &amp; IT Skills</div>
       <table class="skills-table">
         <tr>
           <td class="skill-cat">IT &amp; Systems Support</td>
-          <td class="skill-list">Hardware &amp; OS Support (Windows/Linux), LAN/WLAN Networking, TCP/IP, Cisco Packet Tracer, Troubleshooting, System Backups &amp; Disaster Recovery.</td>
+          <td class="skill-list">Computer hardware repair &amp; upgrades, Windows &amp; Linux OS installation, local networking (LAN/WLAN, routers, switches, TCP/IP), Cisco Packet Tracer, printer &amp; device troubleshooting, data backups.</td>
         </tr>
         <tr>
-          <td class="skill-cat">Security &amp; Administration</td>
-          <td class="skill-list">Role-Based Access Control (RBAC), Brute-Force Defense, Session Timeout Security, User Administration &amp; Audit Trail Logging.</td>
+          <td class="skill-cat">Software &amp; Web</td>
+          <td class="skill-list">Python (Django, script automation), JavaScript, HTML5, CSS3, Node.js, Express, REST APIs.</td>
         </tr>
         <tr>
-          <td class="skill-cat">Software &amp; Scripting</td>
-          <td class="skill-list">Python (Django REST, Automation), JavaScript (ES6+), TypeScript, React, Node.js, Express, HTML5/CSS3, RESTful APIs.</td>
+          <td class="skill-cat">Databases</td>
+          <td class="skill-list">MySQL, PostgreSQL, database setup, table relationships, SQL queries, data exports.</td>
         </tr>
         <tr>
-          <td class="skill-cat">Databases &amp; Storage</td>
-          <td class="skill-list">MySQL, PostgreSQL, Relational Schema Architecture, Data Migration, SQL Query Optimization, Integrity Constraints.</td>
+          <td class="skill-cat">Security &amp; User Access</td>
+          <td class="skill-list">Setting up user permissions and roles, login security (lockout after failed tries), activity logs.</td>
         </tr>
         <tr>
-          <td class="skill-cat">DevOps &amp; Tools</td>
-          <td class="skill-list">Git &amp; GitHub Actions (CI/CD), Vercel, Linux CLI, ReportLab Automated PDF/CSV Generation, ESP32 Microcontrollers &amp; IoT Sensors.</td>
+          <td class="skill-cat">DevOps &amp; Hardware</td>
+          <td class="skill-list">Git &amp; GitHub, Vercel, VS Code, basic Linux terminal, ESP32 microcontrollers &amp; sensors.</td>
         </tr>
       </table>
     </section>
 
-    <!-- Practical Systems & Experience -->
+    <!-- Practical Projects -->
     <section class="section">
-      <div class="section-title">Engineering Projects &amp; Practical Experience</div>
+      <div class="section-title">Key Projects &amp; Systems Built</div>
 
       <div class="entry">
         <div class="entry-header">
           <div>
-            <span class="entry-title">Lead Systems Developer — Kenya Airways (KQ) Sales &amp; Order Intelligence System</span>
+            <span class="entry-title">Kenya Airways (KQ) Sales &amp; Order Intelligence System</span>
+            <span class="entry-org">— Web &amp; Database System</span>
           </div>
           <span class="entry-date">2025 – 2026</span>
         </div>
         <ul class="entry-bullets">
-          <li>Architected and implemented a comprehensive enterprise operations platform modeled on Kenya Airways logistics workflows for order tracking, stock allocation, and financial invoicing.</li>
-          <li>Engineered <strong>4-tier Role-Based Access Control (RBAC)</strong> across Sales Agents, Warehouse Officers, Operations Managers, and System Admins, complete with 5-attempt brute-force lockouts and 30-minute idle session security.</li>
-          <li>Integrated machine learning models for operational decision-making: SARIMAX time-series demand forecasting (85% confidence interval) and Isolation Forest anomaly detection for abnormal order spikes.</li>
-          <li>Automated financial billing and accounts receivable aging reports with 16% Kenya VAT calculations and branded ReportLab PDF/CSV exports.</li>
-          <li>Structured and tuned the relational MySQL database schema ensuring high transactional integrity and rapid query execution.</li>
+          <li>Built a complete web platform for managing water sales orders and warehouse inventory stock levels modeled on Kenya Airways operations.</li>
+          <li>Set up 4 clear user roles (Sales Agents, Warehouse Officers, Managers, Administrators) so users only see and edit data relevant to their job.</li>
+          <li>Protected user accounts with automatic lockouts after 5 wrong password attempts and 30-minute idle session logouts.</li>
+          <li>Automated 16% Kenya VAT calculations and generated one-click printable PDF invoices and CSV reports to cut down on manual paperwork.</li>
+          <li>Trained forecasting models (SARIMAX) to predict upcoming water order demand and set up automated flags for unusual bulk order spikes.</li>
+          <li>Configured the MySQL database to store orders, payments (M-Pesa, bank, cash), and inventory movements securely.</li>
         </ul>
       </div>
 
       <div class="entry">
         <div class="entry-header">
           <div>
-            <span class="entry-title">Chief Data Officer &amp; Frontend Contributor — COMMITed Ltd.</span>
-            <span class="entry-org">(Agile Systems Project)</span>
+            <span class="entry-title">IELTS AI Prep &amp; Tutor Platform</span>
+            <span class="entry-org">— Web Application</span>
           </div>
-          <span class="entry-date">2025 – 2026</span>
+          <span class="entry-date">In Progress</span>
         </div>
         <ul class="entry-bullets">
-          <li>Supervised data flow architecture and operational tracking within a 5-member engineering team adhering to Agile/Kanban sprints.</li>
-          <li>Established team-wide Git version control standards, resolved complex branch protection and cherry-pick merge conflicts, and implemented sprint milestones.</li>
-          <li>Redesigned the system interface with modern, responsive styling and ensured zero cross-browser display discrepancies.</li>
+          <li>Developing an interactive online prep platform to help students practice for the IELTS examination.</li>
+          <li>Building practice modules for speaking and writing tests with automated model-driven feedback to guide student self-study.</li>
+          <li>Designing a straightforward, responsive user interface so learners can track their progress over time.</li>
         </ul>
       </div>
 
       <div class="entry">
         <div class="entry-header">
           <div>
-            <span class="entry-title">Systems &amp; Web Developer — Earthpulse Environmental Monitor</span>
+            <span class="entry-title">Earthpulse Environmental Monitor</span>
+            <span class="entry-org">— Live Web Application</span>
           </div>
-          <span class="entry-date">2025 – 2026</span>
+          <span class="entry-date">2026</span>
         </div>
         <ul class="entry-bullets">
-          <li>Developed and deployed a live environmental data monitoring application hosted on Vercel with serverless API integration (<a href="https://earth-pulse-delta.vercel.app" target="_blank">earth-pulse-delta.vercel.app</a>).</li>
-          <li>Eliminated runtime dependency overhead by utilizing modular vanilla JavaScript and lightweight DOM rendering for rapid page response.</li>
+          <li>Created and launched an environmental monitoring web app (<a href="https://earth-pulse-delta.vercel.app" target="_blank">earth-pulse-delta.vercel.app</a>) deployed live on Vercel.</li>
+          <li>Wrote clean, lightweight JavaScript for fast loading speeds and smooth chart displays.</li>
         </ul>
       </div>
 
       <div class="entry">
         <div class="entry-header">
           <div>
-            <span class="entry-title">Embedded Systems Developer — Shamba Sense (IoT Telemetry Dashboard)</span>
+            <span class="entry-title">Shamba Sense — IoT Farm Monitoring Dashboard</span>
+            <span class="entry-org">— Hardware &amp; Dashboard</span>
           </div>
-          <span class="entry-date">2025 – 2026</span>
+          <span class="entry-date">2026</span>
         </div>
         <ul class="entry-bullets">
-          <li>Configured ESP32 microcontrollers and environmental sensors to stream live telemetry (soil moisture, temperature, humidity) for real-time monitoring.</li>
-          <li>Established automated sensor thresholds and alert triggers to optimize irrigation cycles in East African agricultural environments.</li>
+          <li>Connected ESP32 microcontrollers with real sensors to read soil moisture, temperature, and humidity levels.</li>
+          <li>Sent live sensor readings to a web dashboard and set alerts so farmers know exactly when crops need water.</li>
         </ul>
       </div>
 
     </section>
 
-    <!-- Education & Training -->
+    <!-- Education -->
     <section class="section">
-      <div class="section-title">Education &amp; Qualifications</div>
+      <div class="section-title">Education</div>
+
       <div class="entry">
         <div class="entry-header">
           <div>
-            <span class="entry-title">Bachelor of Science in Informatics &amp; Computer Science</span>
-            <span class="entry-org">— Strathmore University, Nairobi</span>
+            <span class="entry-title">Strathmore University, Nairobi</span>
           </div>
-          <span class="entry-date">Class of 2026</span>
+          <span class="entry-date">Expected Graduation: August 2027</span>
         </div>
-        <ul class="entry-bullets">
-          <li><strong>Relevant Coursework:</strong> Distributed Systems, Computer Networks &amp; Security, Database Management Systems (DBMS), Software Engineering, Operating Systems, Machine Learning, Embedded Systems &amp; IoT.</li>
-        </ul>
+        <p class="summary-text" style="margin-bottom: 0.2rem;"><strong>Bachelor of Science in Informatics &amp; Computer Science</strong></p>
+        <div style="font-size: 8.8pt; color: #475569;">
+          Key Studies: Computer Networks, Database Systems, Operating Systems, Software Engineering, Distributed Systems, Computer Security.
+        </div>
       </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <span class="entry-title">Pioneer Boys School, Maragua</span>
+          </div>
+          <span class="entry-date">2019 – 2022</span>
+        </div>
+        <p class="summary-text">Kenya Certificate of Secondary Education (KCSE)</p>
+      </div>
+    </section>
+
+    <!-- Hobbies & Interests -->
+    <section class="section">
+      <div class="section-title">Hobbies &amp; Interests</div>
+      <p class="summary-text">
+        Writing poetry, hiking and exploring the outdoors, and playing football.
+      </p>
     </section>
 
   </div>

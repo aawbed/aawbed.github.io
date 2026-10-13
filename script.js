@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Copy Email Toast ---
   const copyEmailBtn = document.getElementById('copyEmailBtn');
   const toast = document.getElementById('toast');
-  const emailText = document.getElementById('emailText')?.innerText || 'jermaineobed.oyieri@strathmore.edu';
+  const emailText = document.getElementById('emailText')?.innerText || 'jermain3obed@gmail.com';
 
   if (copyEmailBtn) {
     copyEmailBtn.addEventListener('click', async () => {
@@ -110,60 +110,57 @@ document.addEventListener('DOMContentLoaded', () => {
   const commands = {
     help: `Available commands:
   help        Show this list of available commands
-  whoami      Display current developer profile summary
-  about       Detailed overview of engineering background
-  projects    List key production systems and builds
-  skills      Display technical stack and core competencies
-  experience  View professional background and career log
-  contact     Get direct email and repository links
-  hire        Information on availability for roles
-  clear       Clear terminal output buffer
-  exit        Close the CLI modal`,
+  whoami      Display summary profile
+  about       Background and approach to work
+  projects    List key projects and builds
+  skills      List technical skills and verified certifications
+  education   View academic background and schools
+  hobbies     Personal interests
+  contact     Get direct email and portfolio links
+  clear       Clear terminal output
+  exit        Close the terminal`,
 
     whoami: `Jermaine Otto Oyieri
-Role:        Software Engineer / Full-Stack Developer
 Location:    Nairobi, Kenya
-Specialties: Web Systems · Applied ML / Time-Series · Distributed Arch
-GitHub:      github.com/aawbed`,
+Email:       jermain3obed@gmail.com
+Portfolio:   https://aawbed.github.io
+GitHub:      https://github.com/aawbed
+Credly:      https://www.credly.com/users/jermaine-obed`,
 
-    about: `I build end-to-end software systems that tackle real operational problems.
-My background includes engineering ML forecasting engines (SARIMAX) for Kenya Airways
-logistics, building serverless environmental platforms (Earthpulse), and designing
-IoT telemetry dashboards with edge microcontrollers (ESP32).`,
+    about: `I build practical tools and applications that solve real-world tasks.
+Recent work includes an order & inventory system for Kenya Airways water sales,
+an environmental monitoring app (Earthpulse), an IELTS prep platform (in progress),
+and IoT farm monitoring with ESP32 microcontrollers.`,
 
-    projects: `Featured Systems & Builds:
-1. [KQ Sales & Order Intelligence] - Django REST + SARIMAX ML + MySQL + ReportLab PDF
-   github.com/aawbed/kq-sales-order-intelligence
-2. [Earthpulse] - Serverless climate telemetry app on Vercel
-   earth-pulse-delta.vercel.app
-3. [Interactive Terminal Dev Shell] - Retro-styled CLI portfolio on GitHub Pages
-   is-project-2026.github.io/interactive-portfolio-166588/
-4. [Siwaka Street Eats] - Multi-vendor food ordering campus marketplace
-5. [Shamba Sense] - Real-time ESP32 precision agriculture sensor dashboard
-6. [Blockchain Ledger Explorer] - Vite + Tailwind CSS + Drizzle ORM`,
+    projects: `Key Projects:
+1. Kenya Airways (KQ) Sales & Order Intelligence — Django REST, MySQL, SARIMAX forecasting, PDF invoices
+2. IELTS AI Prep & Tutor Platform — practice modules with model-driven feedback (in progress)
+3. Earthpulse — Live environmental monitoring web app on Vercel (earth-pulse-delta.vercel.app)
+4. Shamba Sense — ESP32 real-time farm sensor dashboard
+5. Siwaka Street Eats — Campus food ordering marketplace
+6. Blockchain Ledger Explorer — Vite + Tailwind CSS + Drizzle ORM`,
 
-    skills: `Technical Arsenal:
-Languages:     Python, JavaScript (ES6+), TypeScript, SQL, Java
-Frameworks:    Django REST, React, Node.js, Express, Bootstrap 5, Tailwind CSS
-ML & Data:     scikit-learn, SARIMAX Time-Series, Isolation Forest, K-Means RFM
-Databases:     MySQL, PostgreSQL, Drizzle ORM
-Infrastructure:Git & GitHub Actions, Vercel, RESTful APIs, ESP32 IoT`,
+    skills: `Skills & Certifications:
+- IT & Systems: PC hardware repair, Windows/Linux OS, LAN/WLAN, TCP/IP, Cisco Packet Tracer, troubleshooting
+- Software:     Python (Django), JavaScript, HTML/CSS, Node.js, Express, REST APIs
+- Databases:    MySQL, PostgreSQL, SQL queries
+- Verified:     Cisco IT Essentials | AWS Cloud Foundations | AWS Microservices & CI/CD
+  Verify on Credly: https://www.credly.com/users/jermaine-obed`,
 
-    experience: `Track Record:
-- Software Engineer (2025 - Present): Independent & Enterprise builds (KQ Sales, Earthpulse)
-- Chief Data Officer @ COMMITed Ltd. (2025 - 2026): Data flow architect & front-end lead
-- BSc. Informatics & Computer Science, Strathmore University`,
+    education: `Education:
+- Strathmore University, Nairobi: BSc. Informatics & Computer Science (Expected Grad: Aug 2027)
+- Pioneer Boys School, Maragua (2019 - 2022): Kenya Certificate of Secondary Education (KCSE)`,
+
+    hobbies: `Hobbies & Interests:
+- Writing poetry
+- Hiking and exploring the outdoors
+- Playing football`,
 
     contact: `Direct Contact:
-Email:   jermaineobed.oyieri@strathmore.edu
-GitHub:  https://github.com/aawbed
-Status:  Open to Software Engineer & Full-Stack roles`,
-
-    hire: `I am currently available for:
-- Full-Time Software Engineer / Full-Stack Developer roles
-- Backend / Python & Django Engineering positions
-- Applied Machine Learning & Data Systems roles
-Send an email to: jermaineobed.oyieri@strathmore.edu`
+Email:     jermain3obed@gmail.com
+Portfolio: https://aawbed.github.io
+GitHub:    https://github.com/aawbed
+Credly:    https://www.credly.com/users/jermaine-obed`
   };
 
   const commandHistory = [];
