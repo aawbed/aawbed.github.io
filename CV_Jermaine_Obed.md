@@ -1,4 +1,4 @@
-# Jermaine Otto Oyieri
+# Jermaine Obed Oyieri
 
 * Nairobi, Kenya 🇰🇪
 * Email: [jermain3obed@gmail.com](mailto:jermain3obed@gmail.com)
@@ -34,7 +34,7 @@ Practical and dependable IT and software enthusiast with strong hands-on skills 
 
 ---
 
-## Key Projects & Systems Built
+## Key Projects & Practical Experience
 
 ### Kenya Airways (KQ) Sales & Order Intelligence System
 *Web & Database System | 2025 – 2026* | [Repository](https://github.com/aawbed/kq-sales-order-intelligence)
@@ -44,6 +44,11 @@ Practical and dependable IT and software enthusiast with strong hands-on skills 
 * Automated 16% Kenya VAT calculations and generated one-click printable PDF invoices and CSV reports to cut down on manual paperwork.
 * Trained forecasting models (SARIMAX) to predict upcoming water order demand and set up automated flags for unusual bulk order spikes.
 * Configured the MySQL database to store orders, payments (M-Pesa, bank, cash), and inventory movements securely.
+
+### Hospital Attachment Trainee
+*Swaminarayan Hospital, Nairobi | Industrial Attachment*
+* Completed an industrial attachment supervised by Dr. Anisha Dave (Medical Doctor & Attachment Supervisor).
+* Assisted with healthcare systems, computer workstations, technical record maintenance, user support, and day-to-day operations.
 
 ### IELTS AI Prep & Tutor Platform
 *Web Application | In Progress*
@@ -81,3 +86,23 @@ Practical and dependable IT and software enthusiast with strong hands-on skills 
 * Writing poetry
 * Hiking and exploring the outdoors
 * Playing football
+
+---
+
+## Referees
+
+* **Dr. Anisha Dave**  
+  Medical Doctor & Attachment Supervisor  
+  Swaminarayan Hospital – Nairobi  
+  Phone: 0733767029  
+  Email: [anishadave333@gmail.com](mailto:anishadave333@gmail.com)
+
+* **Ibrae Galgallo**  
+  Statistician  
+  Kenya National Bureau of Statistics (KNBS)  
+  Phone: 0723707334  
+  Email: [ijillo@knbs.or.ke](mailto:ijillo@knbs.or.ke)
+
+* **Robert Mbololo**  
+  Professional / Industry Referee  
+  Phone: +254 725 293 581

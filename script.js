@@ -1,5 +1,5 @@
 // ==========================================================================
-// Jermaine Otto Oyieri — Interactive Portfolio Logic
+// Jermaine Obed Oyieri — Interactive Portfolio Logic
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
   clear       Clear terminal output
   exit        Close the terminal`,
 
-    whoami: `Jermaine Otto Oyieri
+    whoami: `Jermaine Obed Oyieri
 Location:    Nairobi, Kenya
 Email:       jermain3obed@gmail.com
 Portfolio:   https://aawbed.github.io
