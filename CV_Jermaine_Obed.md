@@ -34,7 +34,7 @@ Practical and dependable IT and software enthusiast with strong hands-on skills 
 
 ---
 
-## Key Projects & Practical Experience
+## Work Experience & Practical Projects
 
 ### Kenya Airways (KQ) Sales & Order Intelligence System
 *Web & Database System | 2025 – 2026* | [Repository](https://github.com/aawbed/kq-sales-order-intelligence)
@@ -44,6 +44,13 @@ Practical and dependable IT and software enthusiast with strong hands-on skills 
 * Automated 16% Kenya VAT calculations and generated one-click printable PDF invoices and CSV reports to cut down on manual paperwork.
 * Trained forecasting models (SARIMAX) to predict upcoming water order demand and set up automated flags for unusual bulk order spikes.
 * Configured the MySQL database to store orders, payments (M-Pesa, bank, cash), and inventory movements securely.
+
+### Research Assistant — Kenya National Bureau of Statistics (KNBS)
+*Field & Statistical Data Project*
+* Conducted field data collection, enumeration, and survey verification under statistical supervision (Referee: Ibrae Galgallo, Statistician).
+* Utilized digital mobile data collection devices and electronic questionnaires to record accurate household and commercial statistics.
+* Carried out data validation, preliminary consistency checks, and resolved field discrepancies before syncing with national databases.
+* Maintained strict confidentiality and data protection in line with national statistical standards.
 
 ### Hospital Attachment Trainee
 *Swaminarayan Hospital, Nairobi | Industrial Attachment*

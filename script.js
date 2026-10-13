@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
   help        Show this list of available commands
   whoami      Display summary profile
   about       Background and approach to work
+  experience  View professional work experience & background
   projects    List key projects and builds
   skills      List technical skills and verified certifications
   education   View academic background and schools
@@ -128,9 +129,18 @@ GitHub:      https://github.com/aawbed
 Credly:      https://www.credly.com/users/jermaine-obed`,
 
     about: `I build practical tools and applications that solve real-world tasks.
-Recent work includes an order & inventory system for Kenya Airways water sales,
-an environmental monitoring app (Earthpulse), an IELTS prep platform (in progress),
-and IoT farm monitoring with ESP32 microcontrollers.`,
+Recent work includes research assistance at KNBS, hospital IT attachment at Swaminarayan Hospital,
+an order & inventory system for Kenya Airways water sales, an environmental monitoring app (Earthpulse),
+and an IELTS prep platform (in progress).`,
+
+    experience: `Work Experience & Practical Systems:
+1. Research Assistant — Kenya National Bureau of Statistics (KNBS)
+   Field data capture, enumeration, and survey verification using mobile statistical tools.
+2. Hospital Attachment Trainee — Swaminarayan Hospital, Nairobi
+   Healthcare IT workstation support, system records, and user troubleshooting.
+3. Lead Developer — Kenya Airways (KQ) Sales & Order Intelligence System
+   Django REST, MySQL, SARIMAX forecasting, and ReportLab PDF billing engine.
+4. Education: Strathmore University (Graduating Aug 2027) & Pioneer Boys School (2019-2022)`,
 
     projects: `Key Projects:
 1. Kenya Airways (KQ) Sales & Order Intelligence — Django REST, MySQL, SARIMAX forecasting, PDF invoices
